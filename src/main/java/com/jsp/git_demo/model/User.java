@@ -3,6 +3,7 @@ package com.jsp.git_demo.model;
 public class User {
     String id;
     String name;
+    String email;
     String password;
 
     public String getId() {
@@ -27,5 +28,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
